@@ -1,0 +1,12 @@
+#Count the number of employees created
+
+class employee:
+    count = 0
+    def __init__(self,name,salary):
+        self.name = name
+        self.salary = salary
+        employee.count+=1
+e1 = employee("Aadharsh",100)
+e2 = employee("Jonath", 99.99)
+e3 = employee("Jiraf",76)
+print(e2.count)
